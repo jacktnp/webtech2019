@@ -1,0 +1,43 @@
+.bargraph {
+  list-style: none;
+  padding-top: 20px;
+  width:560px;
+}
+
+ul.bargraph li {
+  height: 40px;
+  color: white;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal; 
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 0px 20px;
+  margin-bottom: 5px;
+}
+
+ul.bargraph li.Depp {
+  background: red;
+  width:60%;
+}
+
+ul.bargraph li.Washington {
+  background: blue;
+  width:90%;
+} 
+
+ul.bargraph li.Pitt {
+  background: green;
+  width:50%;
+}
+
+ul.bargraph li.Crowe {
+  background: gray;
+  width:80%;
+} 
+
+ul.bargraph li.Cruise {
+  background: olive;
+  width:75%;
+}

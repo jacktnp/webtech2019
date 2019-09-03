@@ -1,0 +1,23 @@
+.container{
+    width: 30%;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+    border-radius: 1em;
+    border: 1px solid rgba(32, 32, 32, 0.281);
+    padding: .3em;
+    margin: .5em 0;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 1em;
+    border: 1px solid rgba(32, 32, 32, 0.281);
+}
