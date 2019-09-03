@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebTech2019 | lab3/2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="tnp.css">
+    <script src="checkdata.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin-top:-2px;text-align: center;">ฟอร์มสมัครสมาชิก</h1>
+    <form action="" id="Form1" onsubmit="return checkData()" method="post">
+        <label>เลขบัตรประชาชน</label>
+        <br>
+        <input type="text" name="idcard">
+        <br>
+
+        <label>คำนำหน้า</label>
+        <br>
+        <select name="sex">
+            <option value="sex01">นาย</option>
+            <option value="sex02">นาง</option>
+            <option value="sex03" selected>นางสาว</option>
+            <option value="sex04">เด็กชาย</option>
+            <option value="sex05">เด็กหญิง</option>
+        </select>
+        <br>
+
+        <label>ชื่อ</label>
+        <br>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+
+        <label>นามสกุล</label>
+        <br>
+        <input type="text" name="lastname" id="lastname">
+        <br>
+
+        <label>ที่อยู่</label>
+        <br>
+        <textarea rows="2" id="address"></textarea>
+        <br>
+
+        <label>ตำบล/แขวง</label>
+        <br>
+        <input type="text" name="zone">
+        <br>
+
+        <label>อำเภอเขต</label>
+        <br>
+        <input type="text" name="district">
+        <br>
+
+        <label>จังหวัด</label>
+        <br>
+        <select name="th" id="th">
+            <option value="th01">กรุงเทพ</option>
+            <option value="th02">ภูเก็ต</option>
+            <option value="th03">พะเยา</option>
+            <option value="th02">สงขลา</option>
+            <option value="th05" selected>พัทยา</option>
+        </select>
+        <br>
+
+        <label>รหัสไปรษณีย์</label>
+        <br>
+        <input type="number" name="post" id="post">
+        <br>
+
+        <label>เบอร์โทรศัพท์</label>
+        <br>
+        <input type="tel" name="tel" id="tel">
+        <br>
+
+        <button>Submit</button>
+    </form>
+    </div>
+</body>
+</html>
