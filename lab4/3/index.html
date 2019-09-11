@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 4/3</title>
+</head>
+<body>
+    <table id="table0" border=1>
+        <tr>
+            <th>ลำดับ</th>
+            <th>รหัสนักศึกษา</th>
+            <th>ชื่อ</th>
+            <th>นามสกุล</th>
+        </tr>
+    </table>
+
+    <script>
+        let table = document.getElementById('table0');
+        let row = table.insertRow(-1); //Row position 0,1,2,...,n -1 = last
+        let cell, text;
+               
+        for (let i = 0; i < 3; i++) {
+            cell = row.insertCell(-1);
+            text = 'Row ' + row.rowIndex + ', Column ' + i;
+            cell.appendChild(document.createTextNode(text));
+        }
+    </script>
+</body>
+</html>
