@@ -1,6 +1,6 @@
 # Web Technology 2019
 
-## เอาไว้อ่านโค้ด ทบทวน และทำความเข้าใจ
+## เอาไว้อ่านโค้ด ทบทวน และทำความเข้าใจกันนะค้าบ    <3
 
 ### source
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -8,4 +8,5 @@
 - [W3School](https://www.w3schools.com/)
 
 ### log
-- 4 Sep 19  add lab 1-2
+- 4/9/19  add lab 1-2
+- 15/9/19  add lab 3-4

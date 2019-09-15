@@ -6,7 +6,11 @@
     <title>Lab 4/3</title>
 </head>
 <body>
-    <table id="table0" border=1>
+    รหัสนักศึกษา <input type="text" id="stdid"> ชื่อ <input type="text" id="fname"> นามสกุล <input type="text" id="lname"> <input type="submit" onclick="newline()">
+    <br>
+    <hr>
+    <br>
+    <table id="table" border=1>
         <tr>
             <th>ลำดับ</th>
             <th>รหัสนักศึกษา</th>
@@ -16,14 +20,29 @@
     </table>
 
     <script>
-        let table = document.getElementById('table0');
-        let row = table.insertRow(-1); //Row position 0,1,2,...,n -1 = last
-        let cell, text;
-               
-        for (let i = 0; i < 3; i++) {
-            cell = row.insertCell(-1);
-            text = 'Row ' + row.rowIndex + ', Column ' + i;
-            cell.appendChild(document.createTextNode(text));
+        function newline(){
+            let table = document.getElementById('table');
+            let row = table.insertRow(-1); //Row position 0,1,2,...,n -1 = last
+            let cell, text;
+                
+            for (let i = 0; i < 4; i++) {
+                if(i == 0){
+                    cell = row.insertCell(-1);
+                    cell.appendChild(document.createTextNode(row.rowIndex));
+                }
+                if(i == 1){
+                    cell = row.insertCell(-1);
+                    cell.appendChild(document.createTextNode(document.querySelector('#stdid').value));
+                }
+                if(i == 2){
+                    cell = row.insertCell(-1);
+                    cell.appendChild(document.createTextNode(document.querySelector('#fname').value));
+                }
+                if(i == 3){
+                    cell = row.insertCell(-1);
+                    cell.appendChild(document.createTextNode(document.querySelector('#lname').value));
+                }
+            }
         }
     </script>
 </body>

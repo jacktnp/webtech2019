@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab4/6</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+        div {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h2>เพิ่มผลไม้</h2>
+    <br>
+    <input type="button" onclick="banana()" value="กล้วย">
+    <input type="button" onclick="orange()" value="ส้ม">
+    <input type="button" onclick="watermelon()" value="แตงโม">
+    <input type="button" onclick="grape()" value="องุ่น">
+    <br>
+    <hr>
+    <br>
+
+    <script>
+        var count = 0;
+
+        function banana(){
+            count += 1;
+            if(count%5 == 0){
+                let img = document.createElement("img");
+                img.src  = "f1.png";
+                document.body.append(img);
+
+                
+                let newline = document.createElement("br");
+                document.body.append(newline);
+            }
+            else{
+                let img = document.createElement("img");
+                img.src  = "f1.png";
+                document.body.append(img);
+            }
+        }
+        function orange(){
+            count += 1;
+            if(count%5 != 0){
+                let img = document.createElement("img");
+                img.src  = "f2.png";
+                document.body.append(img);
+            }
+            else if(count%5 == 0){
+                let img = document.createElement("img");
+                img.src  = "f2.png";
+                document.body.append(img);
+
+                let newline = document.createElement("br");
+                document.body.append(newline);
+            }
+        }
+        function watermelon(){
+            count += 1;
+            if(count%5 != 0){
+                let img = document.createElement("img");
+                img.src  = "f3.png";
+                document.body.append(img);
+            }
+            else if(count%5 == 0){
+                let img = document.createElement("img");
+                img.src  = "f3.png";
+                document.body.append(img);
+
+                let newline = document.createElement("br");
+                document.body.append(newline);
+            }
+        }
+        function grape(){
+            count += 1;
+            if(count%5 != 0){
+                let img = document.createElement("img");
+                img.src  = "f4.png";
+                document.body.append(img);
+            }
+            else if(count%5 == 0){
+                let img = document.createElement("img");
+                img.src  = "f4.png";
+                document.body.append(img);
+                
+                let newline = document.createElement("br");
+                document.body.append(newline);
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab4/5</title>
+</head>
+<body>
+    <p>Web Technology</p>
+
+    <input type="submit" onclick="font_inc()" value="Font [+]">
+    <input type="submit" onclick="font_dec()" value="Font [-]">
+    <input type="submit" onclick="color_after()" value="Color [+]">
+    <input type="submit" onclick="color_before()" value="Color [-]">
+
+    <script>
+        var txt = document.querySelector("p");
+        var fontSize = 16;
+        var TxtColor = 1;
+
+        function font_inc(){
+            fontSize += 4;
+            txt.style.fontSize = fontSize + "px";
+        }
+
+        function font_dec(){
+            fontSize -= 4;
+            txt.style.fontSize = fontSize + "px";
+        }
+
+        function color_before(){
+            if (TxtColor <= 4 && TxtColor > 0) {
+                TxtColor -= 1;
+                if (TxtColor == 0) {
+                    txt.style.color = "blue";
+                }
+                else if (TxtColor == 1) {
+                    txt.style.color = "black";
+                }
+                else if (TxtColor == 2) {
+                    txt.style.color = "red";
+                }
+                else if (TxtColor == 3) {
+                    txt.style.color = "green";
+                }
+            }
+        }
+
+        function color_after() {
+            if (TxtColor < 4 && TxtColor >= 0) {
+                TxtColor += 1;
+                if (TxtColor == 0) {
+                    txt.style.color = "blue";
+                }
+                else if (TxtColor == 1) {
+                    txt.style.color = "black";
+                }
+                else if (TxtColor == 2) {
+                    txt.style.color = "red";
+                }
+                else if (TxtColor == 3) {
+                    txt.style.color = "green";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
