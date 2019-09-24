@@ -1,0 +1,74 @@
+<employee>
+    <person>
+        <id>1</id>
+        <title >Ms.</title>
+        <lastname> Davolio </lastname>
+        <firstname> Nancy </firstname>
+        <job>Sales Representative</job>
+        <address>507 - 20th Ave. E. Apt. 2A</address>
+    </person>
+    <person>
+        <id>2</id>
+        <title >Mr.</title>
+        <lastname> Fuller  </lastname>
+        <firstname> Andrew </firstname>
+        <job>Vice President,Sales</job>
+        <address>908 W. Capital Way</address>
+    </person>
+    <person>
+        <id>3</id>
+        <title >Ms.</title>
+        <lastname> Leverling </lastname>
+        <firstname> Janet </firstname>
+        <job>Sales Representative</job>
+        <address>722 Moss Bay Blvd.</address>
+    </person>
+    <person>
+        <id>4</id>
+        <title >Mrs.</title>
+        <lastname> Peacock </lastname>
+        <firstname> Margaret </firstname>
+        <job>Sales Representative</job>
+        <address>4110 Old Redmond Rd.</address>
+    </person>
+    <person>
+        <id>5</id>
+        <title >Mr.</title>
+        <lastname> Buchanan </lastname>
+        <firstname> Steven </firstname>
+        <job>Sales Manager</job>
+        <address>14 Garrett Hill</address>
+    </person>
+    <person>
+        <id>6</id>
+        <title >Mr.</title>
+        <lastname> Suyama </lastname>
+        <firstname> Michael </firstname>
+        <job>Sales Representative</job>
+        <address>Coventry House Miner Rd.</address>
+    </person>
+    <person>
+        <id>7</id>
+        <title >Mr.</title>
+        <lastname> King </lastname>
+        <firstname> Robert </firstname>
+        <job>Sales Representative</job>
+        <address>Edgeham Hollow Winchester Way</address>
+    </person>
+    <person>
+        <id>8</id>
+        <title >Ms.</title>
+        <lastname> Callahan </lastname>
+        <firstname> Laura </firstname>
+        <job>Inside Sales Coordinator</job>
+        <address>4726 - 11th Ave. N.E.</address>
+    </person>
+    <person>
+        <id>9</id>
+        <title >Ms.</title>
+        <lastname> Dodsworth </lastname>
+        <firstname> Anne </firstname>
+        <job>Sales Representative</job>
+        <address>7 Houndstooth Rd.</address>
+    </person>
+</employee>

@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab 5/2</title>
+</head>
+<body>
+    <script>
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                xmlShow(this);
+            }
+        };
+        xhttp.open("GET", "employee.xml", true);
+        xhttp.send();
+
+        function xmlShow(xml) {
+            let xmlDoc = xml.responseXML;
+
+            country_list = ["TH", "US", "JP", "AUS", "KR", "JPN", "CA", "BR", "ES"]
+            let person = xmlDoc.getElementsByTagName("person");
+            for (let j = 0; j < person.length; j++) {
+                let country_ele = xmlDoc.createElement("country");
+                let country_txt = xmlDoc.createTextNode(country_list[j]);
+                country_ele.appendChild(country_txt);
+                person[j].appendChild(country_ele);
+            }
+
+            let txt = "";
+            let id = xmlDoc.getElementsByTagName("id");
+            let title = xmlDoc.getElementsByTagName("title");
+            let lname = xmlDoc.getElementsByTagName("lastname");
+            let fname = xmlDoc.getElementsByTagName("firstname");
+            let job = xmlDoc.getElementsByTagName("job");
+            let address = xmlDoc.getElementsByTagName("address");
+            let country = xmlDoc.getElementsByTagName("country");
+            for (let i = 0; i < id.length; i++) {
+                txt +=  id[i].childNodes[0].nodeValue + " " +
+                    title[i].childNodes[0].nodeValue + " " +
+                    lname[i].childNodes[0].nodeValue + " " +
+                    fname[i].childNodes[0].nodeValue + " ( " +
+                    job[i].childNodes[0].nodeValue + " ), " +
+                    "<i>" + address[i].childNodes[0].nodeValue + "</i>" +
+                    ", " + country[i].childNodes[0].nodeValue + "</br>" 
+            }
+            document.write(txt);
+        }
+    </script>
+</body>
+</html>
