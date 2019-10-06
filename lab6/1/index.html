@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab 6/1 - WebTechnology 2019</title>
+</head>
+
+<body>
+    <script>
+        let requestURL = "person.json";
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                var myArr = JSON.parse(request.responseText);
+                myFunction(myArr);
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+        
+        function myFunction(myObj) {    
+            for (let i = 0; i < myObj.employee.length; i++) {
+                document.write(
+                    myObj.employee[i].id
+                    + " <b>"
+                    + myObj.employee[i].Firstname
+                    + " "
+                    + myObj.employee[i].Lastname
+                    + "</b> "
+                    + "("
+                    + myObj.employee[i].Gender
+                    + ") "
+                    + "is a "
+                    + myObj.employee[i].Position
+                    + ", "
+                    + myObj.employee[i].Address
+                    + "<br>"
+                );
+            }
+        }
+    </script>
+</body>
+
+</html>

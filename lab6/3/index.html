@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab 6/2 - WebTechnology 2019</title>
+</head>
+ 
+<body>
+    <script>
+        let requestURL = "person.json";
+        let request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (request.readyState == 4 && request.status == 200) {
+                var myArr = JSON.parse(request.responseText);
+                myFunction(myArr);
+            }
+        };
+        request.open("GET", requestURL, true);
+        request.send();
+        
+        function myFunction(myObj) {
+            document.write(
+                myObj[0].firstName +
+                " " +
+                myObj[0].lastName +
+                ", " +
+                myObj[0].gender.type +
+                " " + 
+                myObj[0].age +
+                " years old." +
+                "<br>" +
+                myObj[0].address.streetAddress + 
+                " " +
+                myObj[0].address.city + 
+                " " +
+                myObj[0].address.state + 
+                "<br>" +
+                myObj[0].address.postalCode + 
+                "<br>"
+            );
+
+            for(let i = 0; i < myObj[0].phoneNumber.length; i++){
+                document.write(
+                    myObj[0].phoneNumber[i].type + 
+                    " : " +
+                    myObj[0].phoneNumber[i].number + 
+                    "<br>"
+                );
+            }
+        }
+    </script>
+</body>
+
+</html>
