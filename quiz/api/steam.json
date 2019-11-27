@@ -1,0 +1,132 @@
+[
+    {
+        "year": 2012,
+        "title": "Counter-Strike: Global Offensive",
+        "genres": [
+            "Action",
+            "Free to Play"
+        ],
+        "links": [
+            {"website" : "https://blog.counter-strike.net/"},
+            {"steam": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"}
+        ],
+        "all_reviews": 3518571
+    },
+    {
+        "year": 2017,
+        "title": "PLAYERUNKNOWN'S BATTLEGROUNDS (PUBG)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Massively",
+            "Multiplayer"
+        ],
+        "links": [
+            {"website" : "https://www.pubg.com/"},
+            {"steam": "https://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/"}
+        ],
+        "all_reviews": 954096
+    },
+    {
+        "year": 2016,
+        "title": "Stardew Valley",
+        "genres": [
+            "Simulation",
+            "RPG",
+            "Indie"
+        ],
+        "links": [
+            {"website" : "https://www.stardewvalley.net/"},
+            {"steam": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"}
+        ],
+        "all_reviews": 138111
+    },
+    {
+        "year": 2018,
+        "title": "Far Cry® 5",
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "links": [
+            {"website" : "https://far-cry.ubisoft.com/game/en-gb/home"},
+            {"steam": "https://store.steampowered.com/app/552520/Far_Cry_5/"}
+        ],
+        "all_reviews": 35993
+    },
+    {
+        "year": 2019,
+        "title": "Planet Zoo",
+        "genres": [
+            "Action",
+            "Shooter",
+            "War"
+        ],
+        "links": [
+            {"steam": "https://store.steampowered.com/app/703080/Planet_Zoo/"}
+        ],
+        "all_reviews": 8792
+    },
+    {
+        "year": 2016,
+        "title": "Planet Coaster",
+        "genres": [
+            "Simulation",
+            "Strategy"
+        ],
+        "links": [
+            {"website" : "https://www.planetcoaster.com/"}
+        ],
+        "all_reviews": 23866
+    },
+    {
+        "year": 2016,
+        "title": "Sid Meier’s Civilization® VI",
+        "genres": [
+            "Strategy"
+        ],
+        "links": [
+            {"website" : "https://www.planetcoaster.com/"}
+        ],
+        "all_reviews": 47024
+    },
+    {
+        "year": 2019,
+        "title": "DRAGON QUEST BUILDERS 2",
+        "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "links": [
+            {"website" : "https://dragonquest.square-enix-games.com/builders2/en-gb/home/"},
+            {"steam": "https://store.steampowered.com/app/1072420/DRAGON_QUEST_BUILDERS_2/"}
+        ],
+        "all_reviews": 0
+    },
+    {
+        "year": 2019,
+        "title": "Football Manager 2020",
+        "genres": [
+            "Sports",
+            "Interactive"
+        ],
+        "links": [
+            {"website" : "http://www.footballmanager.com/"},
+            {"steam": "https://store.steampowered.com/app/1100600/Football_Manager_2020/"}
+        ],
+        "all_reviews": 2240
+    },
+    {
+        "year": 2016,
+        "title": "Human: Fall Flat",
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "links": [
+            
+        ],
+        "all_reviews": 33358
+    }
+]

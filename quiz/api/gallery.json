@@ -1,0 +1,268 @@
+[{
+        "id": 1,
+        "name": "Mona Lisa",
+        "year": 1517,
+        "detail": [{
+            "technique": [
+                "Oil on poplar panel",
+                "Sfumato"
+            ],
+            "era": "Renaissance",
+            "dimensions": [{
+                "width": "53",
+                "height": "77"
+            }]
+        }],
+        "artist": "Leonardo da Vinci",
+        "location": [{
+            "country": "France",
+            "city": "Paris",
+            "storagelocation": "The Louvre Museum"
+
+        }]
+    },
+    {
+        "id": 2,
+        "name": "Starry Night",
+        "year": 1889,
+        "detail": [{
+            "technique": [
+                "Oil on canvas"
+            ],
+            "era": "Post-Impressionism",
+            "dimensions": [{
+                "width": "73.7",
+                "height": "92.1"
+            }]
+        }],
+        "artist": "Vincent van Gogh",
+        "location": [{
+            "country": "United States",
+            "city": "New York",
+            "storagelocation": "Museum of Modern Art"
+
+        }]
+    },
+    {
+        "id": 3,
+        "name": "The Last Supper",
+        "year": 1498,
+        "detail": [{
+            "technique": [
+                "Fresco",
+                "Tempera paint on a wall",
+                "Two layers of foundation"
+            ],
+            "era": "Renaissance",
+            "dimensions": [{
+                "width": "880",
+                "height": "460"
+            }]
+        }],
+        "artist": "Leonardo da Vinci",
+        "location": [{
+            "country": "Italy",
+            "city": "Milan",
+            "storagelocation": "Church of Santa Maria Delle Grazie"
+
+        }]
+    },
+    {
+        "id": 4,
+        "name": "The Creation Of Adam",
+        "year": 1512,
+        "detail": [{
+            "technique": [
+                "Wet lime painting"
+            ],
+            "era": "Renaissance",
+            "dimensions": [{
+                "width": "570",
+                "height": "280"
+            }]
+        }],
+        "artist": "Michael Angelo",
+        "location": [{
+            "country": "Vatican",
+            "city": "Vatican",
+            "storagelocation": "Sistine Chapel"
+
+        }]
+    },
+    {
+        "id": 5,
+        "name": "Girl With A Pearl Earring",
+        "year": 1665,
+        "detail": [{
+            "technique": [
+                "Oil on canvas"
+            ],
+            "era": "Dutch Golden Age",
+            "dimensions": [{
+                "width": "39",
+                "height": "44.5"
+            }]
+        }],
+        "artist": "Johannes Vermeer",
+        "location": [{
+            "country": "Netherlands",
+            "city": "The Hague",
+            "storagelocation": "Mauritshuis Museum"
+
+        }]
+    },
+    {
+        "id": 6,
+        "name": "The Scream",
+        "year": 1893,
+        "detail": [{
+            "technique": [
+                "Oil, tempera, pastel and crayon on cardboard"
+            ],
+            "era": "modern art",
+            "dimensions": [{
+                "width": "73.5",
+                "height": "91"
+            }]
+        }],
+        "artist": "Edvard Munch",
+        "location": [{
+            "country": "Norway",
+            "city": "Oslo",
+            "storagelocation": "National Gallery and Munch Museum"
+
+        }]
+    },
+    {
+        "id": 7,
+        "name": "The Night Watch",
+        "year": 1889,
+        "detail": [{
+            "technique": [
+                "Oil on canvas"
+            ],
+            "era": "Baroque",
+            "dimensions": [{
+                "width": "54",
+                "height": "65"
+            }]
+        }],
+        "artist": "Rembrandt",
+        "location": [{
+            "country": "Netherlands",
+            "city": "Amsterdam",
+            "storagelocation": "National Museum of Amsterdam"
+
+        }]
+    },
+    {
+        "id": 8,
+        "name": "Self-portrait without beard",
+        "year": 1889,
+        "detail": [{
+            "technique": [
+                "Oil on canvas"
+            ],
+            "era": "Post-impressionist",
+            "dimensions": [{
+                "width": "54",
+                "height": "65"
+            }]
+        }],
+        "artist": "Vincent van Gogh",
+        "location": [{
+            "country": "",
+            "city": "",
+            "storagelocation": "Private collectors"
+
+        }]
+    },
+    {
+        "id": 9,
+        "name": "Guernica",
+        "year": 1937,
+        "detail": [{
+            "technique": [
+                "Oil on canvas"
+            ],
+            "era": "Surrealism",
+            "dimensions": [{
+                "width": "776",
+                "height": "349"
+            }]
+        }],
+        "artist": "Pablo Picasso",
+        "location": [{
+            "country": "Spain",
+            "city": "Madrid",
+            "storagelocation": "Museo Nacional Centro de Arte Reina Sofía"
+
+        }]
+    },
+    {
+        "id": 10,
+        "name": "The Persistence Of Memory",
+        "year": 1931,
+        "detail": [{
+            "technique": [
+                "Oil on canvas"
+            ],
+            "era": "Surrealism",
+            "dimensions": [{
+                "width": "33",
+                "height": "24"
+            }]
+        }],
+        "artist": "Salvador Dalí",
+        "location": [{
+            "country": "United States",
+            "city": "New York City",
+            "storagelocation": "The Museum of Modern Art "
+
+        }]
+    },
+    {
+        "id": 11,
+        "name": "The Birth of Venus",
+        "year": 1486,
+        "detail": [{
+            "technique": [
+                "Tempera paint on canvas"
+            ],
+            "era": "Renaissance",
+            "dimensions": [{
+                "width": "278.9",
+                "height": "172.5"
+            }]
+        }],
+        "artist": "Sandro Botticelli",
+        "location": [{
+            "country": "Italy",
+            "city": "Florence",
+            "storagelocation": "Uffizi Gallery"
+
+        }]
+    },
+    {
+        "id": 12,
+        "name": "Water Lilies",
+        "year": 1906,
+        "detail": [{
+            "technique": [
+                "Oil on canvas"
+            ],
+            "era": "Impressionism",
+            "dimensions": [{
+                "width": "94.1",
+                "height": "89.9"
+            }]
+        }],
+        "artist": "Claude Mone",
+        "location": [{
+            "country": "United States",
+            "city": "Chicago",
+            "storagelocation": "Art Institute of Chicago"
+
+        }]
+    }
+]
