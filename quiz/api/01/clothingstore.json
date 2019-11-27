@@ -1,0 +1,190 @@
+{
+    "cloths":[
+        {
+            "itemCode": "420841",
+            "image": "img/420841.jpg",
+            "name": "ชุดกระโปรง แฟลนเนล",
+            "gender": "women",
+            "price": 1490,
+            "size": [
+                "S",
+                "M",
+                "L"
+            ]
+        },
+        {
+            "itemCode": "422454",
+            "image": "img/422454.jpg",
+            "name": "ชุดกระโปรง Color Rhythm แขนสั้น",
+            "gender": "women",
+            "price": 990,
+            "size": [
+                "S",
+                "M",
+                "L"
+            ]
+        },
+        {
+            "itemCode": "426084",
+            "image": "img/426084.jpg",
+            "name": "เสื้อตัวยาว ทรงหลวม แขน 3/4",
+            "gender": "women",
+            "price": 590,
+            "size": [
+                "M"
+            ]
+        },
+        {
+            "itemCode": "418628",
+            "image": "img/418628.jpg",
+            "name": "ชุดกระโปรง ผ้าถัก แขนยาว",
+            "gender": "women",
+            "price": 1490,
+            "size": [
+                "S",
+                "M",
+                "L"
+            ]
+        },
+        {
+            "itemCode": "422076",
+            "image": "img/422076.jpg",
+            "name": "JW ANDERSON เชิ้ต แฟลนเนล แขนยาว",
+            "gender": "men",
+            "price": 990,
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ]
+        },
+        {
+            "itemCode": "426300",
+            "image": "img/426300.jpg",
+            "name": "เชิ้ตแขนยาว แฟลนเนล ทรงหลวม",
+            "gender": "men",
+            "price": 790,
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        {
+            "itemCode": "421195",
+            "image": "img/421195.jpg",
+            "name": "เชิ้ต ผ้าแฟลนเนล แขนยาว",
+            "gender": "men",
+            "price": 790,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "itemCode": "421199",
+            "image": "img/421199.jpg",
+            "name": "เชิ้ต แฟลนเนล แขนยาว",
+            "gender": "men",
+            "price": 1150,
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        }
+    ],
+    "pants":[
+        {
+            "itemCode": "418939",
+            "image": "img/418939.jpg",
+            "name": "ยีนส์ ทรงตรง",
+            "gender": "men",
+            "price": 1490,
+            "size": [
+                "28",
+                "29",
+                "30",
+                "31",
+                "32"
+            ]
+        },
+        {
+            "itemCode": "418915",
+            "image": "img/418915.jpg",
+            "name": "ยีนส์ HEATTECH ทรงเข้ารูป",
+            "gender": "men",
+            "price": 1490,
+            "size": [
+                "28",
+                "29",
+                "30",
+                "31",
+                "32"
+            ]
+        },
+        {
+            "itemCode": "415536",
+            "image": "img/415536.jpg",
+            "name": "ยีนส์ Selvedge ทรงเข้ารูป",
+            "gender": "men",
+            "price": 1490,
+            "size": [
+                "27",
+                "28",
+                "29",
+                "30",
+                "31"
+            ]
+        },
+        {
+            "itemCode": "421379",
+            "image": "img/421379.jpg",
+            "name": "ยีนส์เอวสูง ทรงรัดรูป ขา 5 ส่วน",
+            "gender": "women",
+            "price": 1490,
+            "size": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "25"
+            ]
+        },
+        {
+            "itemCode": "418864",
+            "image": "img/418864.jpg",
+            "name": "ยีนส์ ULTRA STRETCH",
+            "gender": "women",
+            "price": 1490,
+            "size": [
+                "21",
+                "22",
+                "23",
+                "24"
+            ]
+        },
+        {
+            "itemCode": "420408",
+            "image": "img/420408.jpg",
+            "name": "ยีนส์ ขาบาน เอวสูง ขา 5 ส่วน",
+            "gender": "women",
+            "price": 1490,
+            "size": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "25"
+            ]
+        }
+    ]
+}

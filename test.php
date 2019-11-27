@@ -14,8 +14,8 @@
     ?>
 
     <form action="test.php" method="POST" accept-charset="UTF-8">
-        <input type="text" name="start" id="start" value="สุวรรณภูมิ">
-        <input type="text" name="stop" id="stop" value="สยาม">
+        <input type="text" name="start" id="start" value="%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4">
+        <input type="text" name="stop" id="stop" value="%E0%B8%A1%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B8%99">
         <input type="submit" value="ค้นหา">
     </form>
 

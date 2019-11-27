@@ -1,0 +1,68 @@
+{
+    "info": {
+        "name": "Seaconsquare",
+        "des": "รายการร้านอาหารใน Seaconsquare",
+        "foodShop": [
+            {
+                "nameEN": "After You",
+                "nameTH": "อาฟเตอร์ ยู",
+                "img": "afteryouLogo.png",
+                "phone": "0-2108-5987"
+            },
+            {
+                "nameEN": "aki-ko",
+                "nameTH": "อะคิโก๊ะ",
+                "img": "akikoLogo.png",
+                "phone": "0-2721-8984"
+            },
+            {
+                "nameEN": "Au bon pain",
+                "nameTH": "โอปองเปง",
+                "img": "aubonpainLogo.png",
+                "phone": "0-2138-5796-8"
+            },
+            {
+                "nameEN": "Auntie Anne's",
+                "nameTH": "อานตี้ แอนส์",
+                "img": "auntieannesLogo.png",
+                "phone": "0-2721-8577"
+            },
+            {
+                "nameEN": "Banana Leaf",
+                "nameTH": "บานาน่า ลีฟ",
+                "img": "bananaleafLogo.png",
+                "phone": "0-2721-8112"
+            },
+            {
+                "nameEN": "BAR-B-Q PLAZA",
+                "nameTH": "บาร์ บี คิว พลาซ่า",
+                "img": "barbqLogo.png",
+                "phone": "089-968-4437"
+            },
+            {
+                "nameEN": "Bonjour",
+                "nameTH": "บองชู",
+                "img": "bonjourLogo.png",
+                "phone": "0-2721-9313"
+            },
+            {
+                "nameEN": "Café Amazon",
+                "nameTH": "คาเฟ่ อเมซอน",
+                "img": "amazonLogo.png",
+                "phone": "08-7354-3773"
+            },
+            {
+                "nameEN": "Dairy Queen",
+                "nameTH": "แดรี่ ควีน",
+                "img": "queenLogo.png",
+                "phone": "090-983-3572"
+            },
+            {
+                "nameEN": "Dunkin' Donuts",
+                "nameTH": "ดังกิ้นโดนัท",
+                "img": "donutsLogo.png",
+                "phone": "0-2721-8676"
+            }
+        ]
+    }
+}
