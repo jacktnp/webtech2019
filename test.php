@@ -20,18 +20,12 @@
     </form>
 
     <?php
-        if(isset($_POST['start'])){
-            $url = "http://34.87.20.177:8080/$start/to/$stop/";
+            $url = "https://www.jacktnp.com/api/gallery";
             $data = file_get_contents($url);
             $result = json_decode($data);
 
-            foreach($result->routes as $route){
-                echo $route->fare . "<br>";
-                echo $route->route . "<br>";
-                echo $route->time . "วินาที";
-                echo "<hr>";
-            }
-        }
+            echo $result[0]->id;
+        
     ?>
 </body>
 </html>
